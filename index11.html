@@ -10,11 +10,23 @@
     
 
     <script>
-        var base = parseFloat(prompt ("Enter the Base : "));
-        var height = parseFloat(prompt ("Enter the Height : "));
-        var area = (base * height) / 2 ;
 
-        document.write ("Area of the Triangle = " + area.toFixed(1));
+        // // Programme to find out the area of Triangle: 
+
+        // var base = parseFloat(prompt ("Enter the Base : "));
+        // var height = parseFloat(prompt ("Enter the Height : "));
+        // var area = (base * height) / 2 ;
+
+        // document.write ("Area of the Triangle = " + area.toFixed(1));
+
+        
+        // Programme to make temperature converter in JS:
+
+        var farn = parseFloat (prompt ("Enter Fahrenheit: "));
+
+        var cels = (farn - 32) * (5 / 9);
+
+        document.write ("Celsius = " + cels.toFixed(1))
 
     </script>
 </body>
