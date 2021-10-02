@@ -70,13 +70,41 @@
 
 // Programme for Vowel and Consonant : 
 
-var letter = prompt ("Enter a letter : ");
+// var letter = prompt ("Enter a letter : ");
 
-letter = letter.toLowerCase();
+// letter = letter.toLowerCase();
 
-if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u")
-    console.log ("Vowel");
+// if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u")
+//     console.log ("Vowel");
 
-else
-    console.log ("Consonant"); 
+// else
+//     console.log ("Consonant"); 
 
+
+// Programme for Letter Grade :
+
+var achievedMarks = prompt ("Enter the achieved marks:");
+
+if (achievedMarks < 0 || achievedMarks > 100)
+    document.write ("Invalid Marks !!!!");
+
+else if (achievedMarks >= 80 && achievedMarks <= 100)
+    document.write ("Grade : A+");
+
+else if (achievedMarks >= 70 && achievedMarks <= 79)
+    document.write ("Grade : A");
+
+else if (achievedMarks >= 60 && achievedMarks <= 69)
+    document.write ("Grade : A-");
+
+else if (achievedMarks >= 50 && achievedMarks <= 59)
+    document.write ("Grade : B");
+
+else if (achievedMarks >= 40 && achievedMarks <= 49)
+    document.write ("Grade : C");
+
+else if (achievedMarks >= 33 && achievedMarks <= 39)
+    document.write ("Grade : D");
+
+else 
+    document.write ("Grade : Fail");
