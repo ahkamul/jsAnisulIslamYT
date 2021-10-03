@@ -191,14 +191,66 @@
 //     i ++ ;
 // } while (i <= 10); 
 
-var i = 1;
-sum = 0;
+// var i = 1;
+// sum = 0;
 
-do {
-    if (i % 2 == 0) {
-        sum = sum + i;
+// do {
+//     if (i % 2 == 0) {
+//         sum = sum + i;
+//     }
+//     i ++ ;
+// } while (i <= 10); 
+
+// document.write ("Sum = " + sum);
+
+
+        // Uses of breaks keyword :
+
+// for (i = 0; i <= 100; i++) {
+//     if (i == 10) {
+//         break;
+//     }
+//     document.write (" " + i);
+// }
+
+        // what will happen if condition goes to below: 
+
+
+// for (i = 0; i <= 100; i++) {
+    
+//     document.write (" " + i);
+
+//     if (i == 10) {
+//         break;
+//     }
+// }
+
+        // Uses of continue Keyword:
+
+
+// for (var i = 0; i <= 100; i ++) {
+//     if (i == 10) {
+//         continue;
+//     }
+//     document.write (" " + i);
+// }
+
+        // programme of printing Odd number from 1 to 100 using continue keyword: 
+
+
+// for (var i = 0; i <= 100; i ++) {
+//     if (i % 2 == 0) {
+//         continue;
+//     }
+//     document.write (" " + i);
+// }
+
+        // programme of printing Even number from 1 to 100 using continue keyword: 
+
+
+for (var i = 1; i <= 100; i ++) {
+    if (i % 2 != 0) {
+        continue;
     }
-    i ++ ;
-} while (i <= 10); 
-
-document.write ("Sum = " + sum);
+    document.write (" " + i);
+}
