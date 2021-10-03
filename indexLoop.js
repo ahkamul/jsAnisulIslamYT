@@ -171,12 +171,34 @@
 
     // sum of the even number from 1 to 10 by using for loop: 
 
-var sum = 0;
+// var sum = 0;
 
-for (i = 1; i <= 10; i++) {
+// for (i = 1; i <= 10; i++) {
+//     if (i % 2 == 0) {
+//         sum = sum + i;
+//     }
+// }
+
+// document.write ("Sum = " + sum);
+
+
+        // do while loop :
+
+// var i = 1;
+
+// do {
+//     document.write (" " + i);
+//     i ++ ;
+// } while (i <= 10); 
+
+var i = 1;
+sum = 0;
+
+do {
     if (i % 2 == 0) {
         sum = sum + i;
     }
-}
+    i ++ ;
+} while (i <= 10); 
 
 document.write ("Sum = " + sum);
