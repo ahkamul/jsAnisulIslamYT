@@ -110,11 +110,73 @@
 
     // Programme of the sum to print 5 times: 
 
-for (var x = 1; x <= 5; x ++) {
-    var num1 = parseInt (prompt ("Enter the first number: "));
-    var num2 = parseInt (prompt ("Enter the second number: "));
-    var sum = num1 + num2;
+// for (var x = 1; x <= 5; x ++) {
+//     var num1 = parseInt (prompt ("Enter the first number: "));
+//     var num2 = parseInt (prompt ("Enter the second number: "));
+//     var sum = num1 + num2;
 
-    document.write ("Result = " + num1 + " + " + num2 + " =" + sum); 
+//     document.write ("Result = " + num1 + " + " + num2 + " =" + sum); 
+// }
+
+
+// while loop : 
+
+    // Time Table of 5:
+
+// var i = 5;
+
+// while (i <= 50) {
+//     document.write (" " + i);
+//     i = i + 5;
+// }
+
+    // sum of 1 to 10 :
+
+// var i = 1;
+// var sum = 0;
+
+// while (i <= 10) {
+//     sum = sum + i;
+//     i = i + 1; 
+// }
+// document.write ("Sum = " + sum);
+
+    // sum of all even number from 1 to 100:
+
+// var i = 2;
+// var sum = 0;
+
+// while (i <= 100) {
+//     sum = sum + i;
+//     i = i + 2;
+// }
+
+// document.write ("Sum = " + sum); 
+
+
+    // sum the the numbers from 1 to 100 which are divisible by both 3 & 5: 
+
+// var i = 1;
+// var sum = 0;
+
+// while (i <= 100){
+//     if (i % 3 == 0 && i % 5 == 0) {
+//         sum = sum + i;
+//     }
+//     i = i + 1;
+// }
+
+// document.write ("Sum = " + sum);
+
+
+    // sum of the even number from 1 to 10 by using for loop: 
+
+var sum = 0;
+
+for (i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+        sum = sum + i;
+    }
 }
 
+document.write ("Sum = " + sum);
