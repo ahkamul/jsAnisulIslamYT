@@ -107,12 +107,99 @@
 
 // Ex. 3 : Number sorting
 
-var numbers = [20, 5, 25, 45, 1]; 
+// var numbers = [20, 5, 25, 45, 1]; 
 
-numbers.sort ();        // sort method not working
+// numbers.sort ();        // sort method not working
 
-numbers.sort (function (a, b){
-        return a - b;
-})
+// numbers.sort (function (a, b){
+//         return a - b;
+// })
 
-document.write (numbers); 
+// document.write (numbers); 
+
+
+        // # 29 : One Dimensional Array 
+
+// Ex. 1 
+
+// var names = ["Ash", "Shakib", "Mushi", "Mahmudullah", "Mash"];
+
+// for (var x = 0; x < names.length; x ++){
+//         document.write (names [x]);
+// }
+
+// Task # 8 : 
+
+
+// var scores = [21, 28, 1, 0, 101, 88, 15, 89, 27, 28, 7, 11];
+// var maxScore = highestScore (scores);
+
+// function highestScore (scores) {
+//         var max = scores [0];
+//         for (var x = 1; x < scores.length; x ++){
+//                 if (max < scores [x]) {
+//                         max = scores [x];
+//                 }
+//         }
+//         return max;
+// }
+
+
+// document.write (maxScore);
+
+
+        // # 30 : Two Dimensional Array / Task 9 
+
+// Ex. 1 
+
+// var playersInfo = [
+//         ["Ash", 95],
+//         ["Bash", 19],
+//         ["Mushi", 3],
+//         ["Mash", 13],
+//         ["Shakib", 45]
+// ]
+
+// for (var x = 0; x < 5; x ++) {
+//         for (var y = 0; y < 2; y ++){
+//                 document.write (playersInfo [x] [y]); 
+//                 //console.log (playersInfo [x] [y]);
+//         }
+        
+// }
+
+
+        // Task 9 : 
+
+// Creating a function called playersInfo that will 
+   // - Receive a 2d Array called plearsInfo
+   // - Based on the highest score, return the name of the player. 
+
+// Things required : variable, if-else, loop, function, array 
+
+var playersInfo = [
+        ["Ash", 95],
+        ["Bash", 25],
+        ["Mash", 45],
+        ["Jash", 105],
+]
+
+highestRunScorer (playersInfo); 
+
+function highestRunScorer {
+        //document.write (playersInfo);
+        var highestRunScorer = playersInfo [0] [0];
+        var highestRunScorer = playersInfo [0] [1];
+
+        for ( var x = 1; x < playersInfo; x ++) {
+                if (highestScore < playersInfo [x] [1]) {
+                        highestScore = playersInfo [x] [1];
+                        highestScorer = playersInfo [x] [0];
+                }
+        }
+        return highestScorer;
+}
+
+var Name = highestRunScorer (playersInfo);
+
+document.write (Name); 
